@@ -25,7 +25,6 @@ set :repo_url, 'https://github.com/hartator/9-Milliards.git'
 # Default value for :linked_files is []
 # set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml')
 
-set :linked_files, %w{config/mongoid.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
 # Default value for linked_dirs is []
