@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Milliards</title>
+  <title>9 Milliards</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+<div class="container">
+  <div class="header clearfix">
+    <nav>
+      <ul class="nav nav-pills pull-right">
+        <li role="presentation" class="active"><a href="/">Accueil</a></li>
+        <li role="presentation"><a href="/users/sign_up">S'inscrire</a></li>
+        <li role="presentation"><a href="/users/sign_in">Connection</a></li>
+      </ul>
+    </nav>
+    <h3 class="text-muted">9 Milliards</h3>
+  </div>
+
+  <% flash.each do |key, value| %>
+    <%= content_tag :div, value, class: "flash #{key}" %>
+  <% end %>
+
+  <%= yield %>
+
+  <footer class="footer">
+    <p>&copy; 9 Milliards 2014-2015</p>
+  </footer>
+
+</div>
 
 </body>
 </html>
