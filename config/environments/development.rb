@@ -39,4 +39,6 @@ Rails.application.configure do
 
   Mongoid.logger.level = Logger::DEBUG
   Moped.logger.level = Logger::DEBUG
+
+  config.react.variant = :development
 end
