@@ -29,5 +29,11 @@ module Milliards
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
     config.i18n.default_locale = :fr
+
+    config.react.variant = :production
+    config.react.addons = true
+    config.react.jsx_transform_options = {
+      harmony: true,
+    }
   end
 end
