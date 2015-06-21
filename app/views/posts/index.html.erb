@@ -1,0 +1,29 @@
+<h1>Liste de toutes les trouvailles</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Trouvaille url</th>
+      <th>Titre</th>
+      <th>Points</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @posts.each do |post| %>
+      <tr>
+        <td><%= post.link_url %></td>
+        <td><%= post.title %></td>
+        <td><%= post.points %></td>
+        <td><%= link_to 'Détais', post %>&nbsp;-&nbsp;</td>
+        <td><%= link_to 'Éditer', edit_post_path(post) %>&nbsp;-&nbsp;</td>
+        <td><%= link_to 'Détruire', post, method: :delete, data: { confirm: 'Certian?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Nouvelle Trouvaille', new_post_path %>

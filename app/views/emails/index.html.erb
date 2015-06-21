@@ -20,6 +20,11 @@
     </ul>
   </div>
   <div class="col-lg-12">
+    <h4>Mailing Tools</h4>
+    <%= link_to 'send trouvaille list to all emails', send_list_post_emails_path %>
+    <br />
+  </div>
+  <div class="col-lg-12">
     <h4>Raw export tools</h4>
       <%= link_to 'newsletter emails', emails_path(raw: true, list: 'newsletter') %> -
       <%= link_to 'user emails', emails_path(raw: true, list: 'user') %> -

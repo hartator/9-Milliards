@@ -1,44 +1,38 @@
+<div class="row marketing">
+  <div class="col-lg-12">
+    <h2 style="margin:0px 0px 17px 0px;">Les trouvailles du moment</h2>
+    <% @posts.each_with_index do |post, index| %>
+      <p>
+        <span style="font-size:17px;">
+          <%= index+1 %>.
+          <%= post.title %>
+        </span>
+        <br \>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <%= post.points %> points -
+        <% if post.link_url.split('/')[2] %>
+            <%= post.link_url.split('/')[2].gsub('www.','') %> -
+        <% end %>
+        <%= link_to "Aller voir!", post.link_url %> -
+        <%= link_to "❤ J'adore", love_post_path(post) %> -
+        <%= link_to "✝ Je déteste", hate_post_path(post) %>
+      </p>
+    <% end %>
+
+    <% if current_user %>
+      <br \>
+      <a href="/posts/new" type="button" class="btn btn-primary">Nouvelle Trouvaille!</a>
+    <% end %>
+  </div>
+</div>
+
 <div class="jumbotron">
   <h1>Newsletter</h1>
-  <p class="lead">Soyez au top de l'actualité concernant l'environement, inscrivez-vous à notre newsletter !</p>
+  <p class="lead">Soyez au top de l'actualité, recevez tous les jours<br \> les 30 liens les plus impactants !</p>
   <form method=POST id="newsletter" action="/newsletter">
     <div class="input-group input-group-lg email-home">
       <input id="email-home" type="email" class="form-control" placeholder="Email" aria-describedby="sizing-addon1">
     </div>
-    <p><input type="submit" class="btn btn-lg btn-success" href="#" role="button" value="S'enregistrer"></p>
+    <p><input type="submit" class="btn btn-lg btn-primary" href="#" role="button" value="S'enregistrer"></p>
   </form>
-</div>
-
-<div class="row marketing">
-  <div class="col-lg-12">
-    <h4>1. Pretrolus</h4>
-    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.<br><a href="#">pretrolus.com</a></p>
-
-    <h4>2. Pretrolus</h4>
-    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.<br><a href="#">pretrolus.com</a></p>
-
-    <h4>3. Pretrolus</h4>
-    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.<br><a href="#">pretrolus.com</a></p>
-
-    <h4>4. Pretrolus</h4>
-    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.<br><a href="#">pretrolus.com</a></p>
-
-    <h4>5. Pretrolus</h4>
-    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.<br><a href="#">pretrolus.com</a></p>
-
-    <h4>6. Pretrolus</h4>
-    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.<br><a href="#">pretrolus.com</a></p>
-
-    <h4>7. Pretrolus</h4>
-    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.<br><a href="#">pretrolus.com</a></p>
-
-    <h4>8. Pretrolus</h4>
-    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.<br><a href="#">pretrolus.com</a></p>
-
-    <h4>9. Pretrolus</h4>
-    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.<br><a href="#">pretrolus.com</a></p>
-
-    <h4>10. Pretrolus</h4>
-    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.<br><a href="#">pretrolus.com</a></p>
-  </div>
 </div>

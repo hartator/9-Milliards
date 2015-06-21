@@ -1,0 +1,27 @@
+<%= form_for(@post) do |f| %>
+  <% if @post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@post.errors.count, "erreur") %> nous empêche de partager cette trouvaille:</h2>
+
+      <ul>
+      <% @post.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title, "Titre" %><br>
+    <%= f.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= f.label :link_url, "URL" %><br>
+    <%= f.text_field :link_url %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit value: "Partager ma Trouvaille" %>
+  </div>
+<% end %>

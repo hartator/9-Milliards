@@ -30,6 +30,15 @@ module Milliards
     # config.i18n.default_locale = :de
     config.i18n.default_locale = :fr
 
+    config.action_mailer.delivery_method = :smtp
+    config.action_mailer.smtp_settings = {
+      :authentication => :plain,
+      :address => "smtp.mailgun.org",
+      :port => 587,
+      :user_name => "postmaster@sandbox107a66e1a43d462ea533ca0892780603.mailgun.org",
+      :password => "fd071087189b67e8427145cc6d3cd1c0"
+    }
+
     config.react.variant = :production
     config.react.addons = true
     config.react.jsx_transform_options = {

@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :posts do
+    member do
+      get :love
+      get :hate
+    end
+  end
   root to: "home#index"
   post '/newsletter', to: "home#newsletter"
   devise_for :users
@@ -15,7 +21,11 @@ Rails.application.routes.draw do
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
-  resources :emails
+  resources :emails do
+    collection do
+      get :send_list_post
+    end
+  end
 
   # Example resource route with options:
   #   resources :products do

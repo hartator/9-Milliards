@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def index
+    @posts = Post.all.desc(:points)
   end
   def newsletter
     email = Email.new

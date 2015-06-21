@@ -1,1 +1,1 @@
-Pry.config.pager = false if defined? Pry
+Pry.config.pager = false if defined? Pry  

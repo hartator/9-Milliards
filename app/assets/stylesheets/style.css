@@ -9,10 +9,57 @@
   margin-bottom:31px;
 }
 
+.typewriter {
+  font-family: American Typewriter,Open Sans,Helvetica,Arial,sans-serif;
+  color: #000;
+}
+
+.header h3.title-text {
+  margin: 23px 0px 0px 79px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 42px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.title-image {
+  float:left;
+  margin: 0px 0px 0px 0px;
+}
+
 * {
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   -ms-transition: 0.3s;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  background-color: #E6E230;
+  color: #000;
+  text-decoration: none;
+}
+
+a.btn-primary, a.btn-primary:visited, a.btn-primary:hover, input.btn-primary, input.btn-primary:visited, input.btn-primary:hover {
+  background-color: #E6E230;
+  color: #000;
+  text-decoration: none;
+}
+
+a.btn-primary:hover, input.btn-primary:hover {
+  background-color: #F6FF42;
+}
+
+.flash {
+  margin:11px;
+  color: #006400;
+  font-weight: bold;
+}
+
+.marketing p {
+  margin:0px 0px 17px 0px;
 }

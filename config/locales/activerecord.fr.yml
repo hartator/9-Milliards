@@ -1,0 +1,9 @@
+fr:
+  mongoid:
+    models:
+      user: Utilisateur
+      post: Trouvaille
+    attributes:
+      post:
+        link_url: "URL"
+        title: "Titre"
