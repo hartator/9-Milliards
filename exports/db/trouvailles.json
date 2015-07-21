@@ -1,0 +1,123 @@
+[
+   {
+      "_id":{
+         "$oid":"558728ca394d69077c000001"
+      },
+      "link_url":"http://www.ouest-france.fr/elections-regionales-normandes-les-tetes-de-listes-deurope-ecologie-3497999",
+      "points":NumberInt(5),
+      "title":"Normandie 2016. Régionales : les têtes de listes d'Europe écologie",
+      "user_id":{
+         "$oid":"557e5201394d69073d000001"
+      }
+   },
+   {
+      "_id":{
+         "$oid":"558728f5394d69077c000002"
+      },
+      "link_url":"http://www.ladepeche.fr/article/2015/06/21/2129167-les-maillots-verts-pour-les-vergers-a-graines.html",
+      "points":NumberInt(5),
+      "title":"Les maillots verts pour les vergers à graines",
+      "user_id":{
+         "$oid":"557e5201394d69073d000001"
+      }
+   },
+   {
+      "_id":{
+         "$oid":"55872911394d69077c000003"
+      },
+      "link_url":"http://www.liberation.fr/monde/2015/06/21/climat-crash-test-sur-10-pistes-visant-a-decarboner-l-economie_1333959",
+      "points":NumberInt(5),
+      "title":"Climat : crash-test sur 10 pistes visant à décarboner l’économie",
+      "user_id":{
+         "$oid":"557e5201394d69073d000001"
+      }
+   },
+   {
+      "_id":{
+         "$oid":"55872968394d69077c000004"
+      },
+      "link_url":"http://www.parismatch.com/Actu/Politique/Laurence-Tubiana-la-madame-climat-de-Hollande-786302",
+      "points":NumberInt(2),
+      "title":"La madame climat de Hollande",
+      "user_id":{
+         "$oid":"557e5201394d69073d000001"
+      }
+   },
+   {
+      "_id":{
+         "$oid":"55872984394d69077c000005"
+      },
+      "link_url":"http://www.lemonde.fr/climat/article/2015/06/19/quels-financements-innovants-pour-lutter-contre-le-changement-climatique_4658041_1652612.html",
+      "points":NumberInt(5),
+      "title":"Quels financements innovants pour lutter contre le changement climatique?",
+      "user_id":{
+         "$oid":"557e5201394d69073d000001"
+      }
+   },
+   {
+      "_id":{
+         "$oid":"558729f7394d69077c000006"
+      },
+      "link_url":"http://www.lemonde.fr/religions/article/2015/06/18/encyclique-du-pape-sur-le-climat-la-france-salue-le-geste-sans-precedent-de-l-eglise_4657495_1653130.html",
+      "points":NumberInt(11),
+      "title":"Encyclique du pape sur le climat : la France salue le « geste sans précédent » de l’Eglise",
+      "user_id":{
+         "$oid":"557e5201394d69073d000001"
+      }
+   },
+   {
+      "_id":{
+         "$oid":"55872a1a394d69077c000007"
+      },
+      "link_url":"http://www.lefigaro.fr/flash-actu/2015/06/17/97001-20150617FILWWW00065-psa-va-fabriquer-et-distribuer-une-voiture-electrique-bollore.php",
+      "points":NumberInt(6),
+      "title":"PSA va fabriquer et distribuer une voiture électrique Bolloré",
+      "user_id":{
+         "$oid":"557e5201394d69073d000001"
+      }
+   },
+   {
+      "_id":{
+         "$oid":"55872a50394d69077c000008"
+      },
+      "link_url":"http://www.investir-en-tunisie.net/index.php?option=com_content\u0026view=article\u0026id=32382:2015-06-02-13-10-20\u0026catid=39:eco-finance\u0026Itemid=128",
+      "points":NumberInt(1),
+      "title":"Ericsson vise à renforcer l'avenir du transport durable au forum de l'infrastructure en Tunisie",
+      "user_id":{
+         "$oid":"557e5201394d69073d000001"
+      }
+   },
+   {
+      "_id":{
+         "$oid":"55872a84394d69077c000009"
+      },
+      "link_url":"https://www.google.fr/url?sa=t\u0026rct=j\u0026q=\u0026esrc=s\u0026source=newssearch\u0026cd=4\u0026ved=0CCgQqQIoADAD\u0026url=http%3A%2F%2Fwww.lachaineducoeur.fr%2Fedition%2Factu%2Fvoir%2Fprix-des-femmes-pour-le-developpement-durable-inscrivez-vous-jusqu-au-30-juin-2706\u0026ei=ayqHVfioM462yQTWp5XwBw\u0026usg=AFQjCNH_VgWr-wIH9b5FNUtbTVOuPnny5Q\u0026bvm=bv.96339352,d.cGU\u0026cad=rja",
+      "points":NumberInt(1),
+      "title":"Prix des Femmes pour le développement durable : inscrivez vous jusqu'au 30 juin !",
+      "user_id":{
+         "$oid":"557e5201394d69073d000001"
+      }
+   },
+   {
+      "_id":{
+         "$oid":"55872ab2394d69077c00000a"
+      },
+      "link_url":"http://www.ladepeche.fr/article/2015/06/15/2124871-a-la-poste-rencontre-sous-le-signe-du-developpement-durable.html",
+      "points":NumberInt(5),
+      "title":"À la poste, rencontre sous le signe du développement durable",
+      "user_id":{
+         "$oid":"557e5201394d69073d000001"
+      }
+   },
+   {
+      "_id":{
+         "$oid":"55872ac6394d69077c00000b"
+      },
+      "link_url":"http://www.leprogres.fr/loire/2015/06/20/le-developpement-durable-gagne-du-terrain",
+      "points":NumberInt(4),
+      "title":"Le développement durable gagne du terrain",
+      "user_id":{
+         "$oid":"557e5201394d69073d000001"
+      }
+   }
+]
